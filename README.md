@@ -11,7 +11,7 @@ Everything is completely encrypted with a individually created and only locally 
 row1 | row2 | row3  
 xxxx | xxxx | xxxx  
 
--- accounts --
+-- accounts --  
 userid | username | password | email | role | booker | telegram | joined | balance | deposited | deposits | tickets | orders | rememberToken |  
 varchar(255) | varchar(255) | varchar(255) | varchar(255) | int | int | varchar(255) | timestamp | decimal | decimal | int | int | int | varchar(255)  
 
