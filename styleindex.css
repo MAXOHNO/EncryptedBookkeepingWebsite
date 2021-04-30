@@ -1,0 +1,120 @@
+:root {
+    --mainblue: #4890C2;
+    --mainred: #C24855;
+    --highblue: #2A4173;
+    --dark: black;
+    --light: white;
+    --special: #B76F3D;
+}
+
+body {
+    margin: 0px;
+    background-color: #1A1C1E;
+    background-color: white;
+
+    /* background-image: url("banner.jpg"); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    color: white;
+    font-weight: bolder;
+}
+
+.mainfont {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 1.7vw;
+}
+
+
+.topsection {
+    background-color: var(--light);
+    padding-top: 0vw; 
+    padding-bottom: 0vw;
+    box-shadow: 0px 0vw 4vw black;
+}
+
+.footersection {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    background-color: var(--mainblue);
+    bottom: 0%;
+    position: fixed;
+}
+
+.toptext {
+    display: inline-block;
+    padding: 1vw;
+    color: var(--dark);
+    font-size: 1.8vw;
+    text-decoration: none;
+    margin-left: 0vw;
+
+}
+
+.toptext:hover {
+    transition: 0.2s;
+    color: var(--mainblue);
+}
+
+.toptextred:hover {
+    transition: 0.2s;
+    color: var(--mainred);
+}
+
+
+.un::after {
+    content: '';
+    width: 0px;
+    height: 0.15vw;
+    display: block;
+    background: var(--dark);
+    transition: 300ms;
+}
+
+.un:hover::after {
+    width: 105%;
+}
+
+.navbar_td {
+    padding-right: 2vw;
+    white-space: nowrap;
+}
+
+.footertableheader {
+    padding-right: 2vw;
+    font-size: 1vw;
+}
+
+.footertabletext {
+    text-align: left;
+    font-size: 1vw;
+    color: var(--highblue);
+}
+
+.field {
+    padding-top: 15px;
+    padding-bottom: 0.5vw;
+}
+
+.input {
+    border:3px solid;
+    color: black;
+    border-radius: 6px;
+    width: 30vw;
+}
+
+.button {
+    margin-top: 1vw;
+    width: 30.5vw;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
